@@ -1,6 +1,12 @@
-# 我的 GitHub 博客
+# Goodnight Lab
 
-这是一个基于 Hexo、Butterfly 和 GitHub Pages 的个人博客模板。
+这是 goodnighttt 的个人博客，使用 Hexo + Butterfly 构建，通过 GitHub Pages 发布。
+
+线上地址：
+
+```text
+https://goodnighttt.github.io/Goodnight-Lab/
+```
 
 ## 本地使用
 
@@ -28,16 +34,34 @@ npm run build
 npx hexo new "文章标题"
 ```
 
-## 发布到 GitHub Pages
+## 从 Obsidian 迁移笔记
 
-1. 在 GitHub 新建仓库，个人主页仓库通常命名为 `你的用户名.github.io`。
-2. 推送到 `https://github.com/goodnighttt/Goodnight-Lab`。
-3. 推送到 GitHub 后，在仓库 `Settings -> Pages` 中选择 `GitHub Actions`。
+把适合公开的 Markdown 笔记复制到 `source/_posts/`，并在文件顶部补上 Hexo front matter：
 
-如果你使用个人主页仓库，站点地址通常是：
-
-```text
-https://goodnighttt.github.io/Goodnight-Lab/
+```yaml
+---
+title: 文章标题
+date: 2026-06-30 19:20:00
+categories:
+  - 分类
+tags:
+  - 标签
+description: 文章摘要
+---
 ```
 
-如果你使用普通项目仓库，记得把 `_config.yml` 的 `url` 和 `root` 按 GitHub Pages 项目站点规则调整。
+Obsidian 的图片语法建议改成标准 Markdown 图片语法：
+
+```markdown
+![图片说明](https://example.com/image.png)
+```
+
+## 发布到 GitHub Pages
+
+推送到 `main` 分支后，GitHub Actions 会自动构建并发布：
+
+```bash
+git push
+```
+
+如果第一次发布，在 GitHub 仓库 `Settings -> Pages` 中把 Source 设置为 `GitHub Actions`。
