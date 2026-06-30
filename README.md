@@ -31,13 +31,13 @@ npx hexo new "文章标题"
 ## 发布到 GitHub Pages
 
 1. 在 GitHub 新建仓库，个人主页仓库通常命名为 `你的用户名.github.io`。
-2. 推送到 `https://github.com/goodnighttt/goodnighttt.github.io`。
+2. 推送到 `https://github.com/goodnighttt/Goodnight-Lab`。
 3. 推送到 GitHub 后，在仓库 `Settings -> Pages` 中选择 `GitHub Actions`。
 
 如果你使用个人主页仓库，站点地址通常是：
 
 ```text
-https://你的用户名.github.io
+https://goodnighttt.github.io/Goodnight-Lab/
 ```
 
 如果你使用普通项目仓库，记得把 `_config.yml` 的 `url` 和 `root` 按 GitHub Pages 项目站点规则调整。
