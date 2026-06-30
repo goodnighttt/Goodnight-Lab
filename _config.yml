@@ -3,14 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 我的 GitHub 博客
-subtitle: '用 Hexo 和 Butterfly 记录想法'
-description: '一个基于 Hexo、Butterfly 和 GitHub Pages 的个人博客。'
+title: 良夜突围
+subtitle: '不要温和地走入那个良夜'
+description: '良夜突围的个人博客，记录技术、游戏开发与日常思考。'
 keywords:
   - Hexo
   - Butterfly
   - GitHub Pages
-author: ndh
+author: 良夜突围
 language: zh-CN
 timezone: Asia/Shanghai
 

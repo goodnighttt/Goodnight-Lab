@@ -1,6 +1,6 @@
-# Goodnight Lab
+# 良夜突围
 
-这是 goodnighttt 的个人博客，使用 Hexo + Butterfly 构建，通过 GitHub Pages 发布。
+这是「良夜突围」的个人博客，使用 Hexo + Butterfly 构建，通过 GitHub Pages 发布。
 
 线上地址：
 

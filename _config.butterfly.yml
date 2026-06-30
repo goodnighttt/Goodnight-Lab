@@ -19,15 +19,15 @@ social:
 favicon: /img/favicon.svg
 
 avatar:
-  img: /img/avatar.svg
+  img: /img/avatar.png
   effect: false
 
 disable_top_img: false
-default_top_img: linear-gradient(120deg, #2f80ed 0%, #56ccf2 100%)
-index_img: linear-gradient(120deg, #2f80ed 0%, #56ccf2 100%)
-archive_img: linear-gradient(120deg, #2f80ed 0%, #56ccf2 100%)
-tag_img: linear-gradient(120deg, #2f80ed 0%, #56ccf2 100%)
-category_img: linear-gradient(120deg, #2f80ed 0%, #56ccf2 100%)
+default_top_img: /img/background.jpg
+index_img: /img/background.jpg
+archive_img: /img/background.jpg
+tag_img: /img/background.jpg
+category_img: /img/background.jpg
 footer_img: false
 background: '#f7f9fc'
 
@@ -36,8 +36,7 @@ subtitle:
   effect: true
   source: false
   sub:
-    - 写代码，也写生活
-    - 把每天的火花存起来
+    - 不要温和地走入那个良夜
 
 index_layout: 3
 
@@ -49,12 +48,15 @@ aside:
   position: right
   card_author:
     enable: true
-    description: 记录技术、阅读与日常灵感
+    description: 不要温和地走入那个良夜
     button:
       enable: true
       icon: fab fa-github
       text: Follow Me
       link: https://github.com/goodnighttt
+  card_announcement:
+    enable: true
+    content: 不要温和地走入那个良夜
 
 darkmode:
   enable: true
