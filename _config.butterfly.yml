@@ -14,7 +14,7 @@ menu:
   关于: /about/ || fas fa-user
 
 social:
-  fab fa-github: https://github.com/your-github-username || GitHub || '#24292e'
+  fab fa-github: https://github.com/goodnighttt || GitHub || '#24292e'
 
 favicon: /img/favicon.svg
 
@@ -54,7 +54,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/your-github-username
+      link: https://github.com/goodnighttt
 
 darkmode:
   enable: true
