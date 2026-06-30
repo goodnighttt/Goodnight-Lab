@@ -1,0 +1,77 @@
+# Butterfly theme overrides
+
+nav:
+  logo:
+  display_title: true
+  display_post_title: true
+  fixed: false
+
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+  关于: /about/ || fas fa-user
+
+social:
+  fab fa-github: https://github.com/your-github-username || GitHub || '#24292e'
+
+favicon: /img/favicon.svg
+
+avatar:
+  img: /img/avatar.svg
+  effect: false
+
+disable_top_img: false
+default_top_img: linear-gradient(120deg, #2f80ed 0%, #56ccf2 100%)
+index_img: linear-gradient(120deg, #2f80ed 0%, #56ccf2 100%)
+archive_img: linear-gradient(120deg, #2f80ed 0%, #56ccf2 100%)
+tag_img: linear-gradient(120deg, #2f80ed 0%, #56ccf2 100%)
+category_img: linear-gradient(120deg, #2f80ed 0%, #56ccf2 100%)
+footer_img: false
+background: '#f7f9fc'
+
+subtitle:
+  enable: true
+  effect: true
+  source: false
+  sub:
+    - 写代码，也写生活
+    - 把每天的火花存起来
+
+index_layout: 3
+
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  card_author:
+    enable: true
+    description: 记录技术、阅读与日常灵感
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/your-github-username
+
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: false
+
+search:
+  use: local_search
+  local_search:
+    preload: false
+    CDN:
+    pagination:
+      enable: true
+      per_page: 10
+
+footer:
+  owner:
+    enable: true
+    since: 2026
+  custom_text: Powered by Hexo and Butterfly
