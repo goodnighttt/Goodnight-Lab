@@ -48,7 +48,7 @@ aside:
   position: right
   card_author:
     enable: true
-    description: 文学 / 艺术 / 影像
+    description: 游戏开发 / AI 应用 / 产品思考
     button:
       enable: true
       icon: fab fa-github
@@ -56,7 +56,7 @@ aside:
       link: https://github.com/goodnighttt
   card_announcement:
     enable: true
-    content: 这里收集一些关于文学、艺术和影像的随想与记录。
+    content: 这里记录游戏开发、AI 应用和产品经历中的想法、复盘与观察。
 
 darkmode:
   enable: true
