@@ -23,20 +23,20 @@ avatar:
   effect: false
 
 disable_top_img: false
-default_top_img: /img/background.jpg
-index_img: /img/background.jpg
-archive_img: /img/background.jpg
-tag_img: /img/background.jpg
-category_img: /img/background.jpg
+default_top_img: /img/hero-multiverse.png
+index_img: /img/hero-multiverse.png
+archive_img: /img/hero-multiverse.png
+tag_img: /img/hero-multiverse.png
+category_img: /img/hero-multiverse.png
 footer_img: false
-background: '#f7f9fc'
+background: '#f8f1e5'
 
 subtitle:
   enable: true
   effect: true
   source: false
   sub:
-    - 不要温和地走入那个良夜
+    - 文学、艺术和影像
 
 index_layout: 3
 
@@ -48,7 +48,7 @@ aside:
   position: right
   card_author:
     enable: true
-    description: 不要温和地走入那个良夜
+    description: 文学 / 艺术 / 影像
     button:
       enable: true
       icon: fab fa-github
@@ -56,7 +56,7 @@ aside:
       link: https://github.com/goodnighttt
   card_announcement:
     enable: true
-    content: 不要温和地走入那个良夜
+    content: 这里收集一些关于文学、艺术和影像的随想与记录。
 
 darkmode:
   enable: true
@@ -76,4 +76,8 @@ footer:
   owner:
     enable: true
     since: 2026
-  custom_text: Powered by Hexo and Butterfly
+  custom_text: Shot on film grain, tuned by glitch.
+
+inject:
+  head:
+    - <link rel="stylesheet" href="/Goodnight-Lab/css/goodnight-multiverse.css">

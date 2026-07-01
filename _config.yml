@@ -3,14 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 良夜突围
-subtitle: '不要温和地走入那个良夜'
-description: '良夜突围的个人博客，记录技术、游戏开发与日常思考。'
+title: 良夜随想录
+subtitle: '文学、艺术和影像'
+description: '良夜的个人博客，记录文学、艺术、影像与日常思考。'
 keywords:
-  - Hexo
-  - Butterfly
-  - GitHub Pages
-author: 良夜突围
+  - 良夜
+  - 文学
+  - 艺术
+  - 影像
+author: 良夜
 language: zh-CN
 timezone: Asia/Shanghai
 
@@ -35,7 +36,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :title.md # File name of new post
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
